@@ -1,0 +1,29 @@
+Many developers:
+Learn → Build → Stop
+
+Top developers:
+Learn
+ ↓
+Build
+ ↓
+Deploy
+ ↓
+Improve
+ ↓
+Deploy
+ ↓
+Improve
+ ↓
+Repeat
+
+
+8-step Development Lifecycle
+
+1.Define the problem in writing
+2.Design the architecture before you build
+3.Set up your environment
+4.Build the smallest version first
+5.Iterate with AI as your pair programmer
+6.Test it, Even if Informal
+7.Ship it somewhere (Deploy your project and make it available for others to use.)
+8.Get on the flywheel (Keep improving the project based on feedback, learning, and usage.REPEAT)
