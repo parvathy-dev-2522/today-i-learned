@@ -4,12 +4,12 @@ from models.enums import VehicleType
 
 
 @dataclass
-class Vehicle(ABC):
+class Vehicle(ABC):  # Base class for all vehicle types.
     registration_number: str
     vehicle_type: VehicleType
 
 
-class MotorCycle(Vehicle):
+class MotorCycle(Vehicle):  # Initialize a motorcycle with its vehicle type.
     def __init__(self, registration_number: str) -> None:
         super().__init__(
             registration_number=registration_number,
@@ -17,7 +17,7 @@ class MotorCycle(Vehicle):
         )
 
 
-class Car(Vehicle):
+class Car(Vehicle):  # Initialize a car with its vehicle type.
     def __init__(self, registration_number: str) -> None:
         super().__init__(
             registration_number=registration_number,
@@ -25,7 +25,7 @@ class Car(Vehicle):
         )
 
 
-class Truck(Vehicle):
+class Truck(Vehicle):  # Initialize a truck with its vehicle type.
     def __init__(self,  registration_number: str) -> None:
         super().__init__(
             registration_number=registration_number,
